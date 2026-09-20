@@ -1,0 +1,183 @@
+body {
+    background-color: #fbc1c1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    background-color: #164069;
+    color: rgb(254, 213, 213);
+    text-align: center;
+    padding: 25px;
+    border-bottom: 4px solid #e46f09;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header p {
+    margin: 8px 0 0;
+}
+
+
+
+.navbar {
+    background-color: #fde5e5;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #d2d7ea;
+}
+
+.navbar a {
+    color: #164069;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+.navbar a:hover {
+    background-color: #164069;
+    color: rgb(241, 199, 199);
+}
+
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+
+
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #fde5e5;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar h2 {
+    color: #164069;
+    margin-top: 0;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+}
+
+.sidebar a {
+    color: #0d5f96;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #e46f09;
+    text-decoration: underline;
+}
+
+
+
+.main-content {
+    float: right;
+    width: 70%;
+    background-color: #ffe4e4;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.main-content h2 {
+    color: #164069;
+    border-bottom: 2px solid #e46f09;
+    padding-bottom: 8px;
+}
+
+.main-content p {
+    line-height: 1.6;
+}
+
+.main-content li {
+    margin-bottom: 8px;
+}
+
+
+
+.main-content a {
+    display: inline-block;
+    color: #0d5f96;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 8px 12px;
+    border: 1px solid #0d5f96;
+    border-radius: 5px;
+}
+
+
+
+.main-content a:hover {
+    background-color: #0d5f96;
+    color: rgb(251, 222, 222);
+}
+
+
+
+.footer {
+    clear: both;
+    background-color: #164069;
+    color: rgb(242, 206, 206);
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .sidebar {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        float: none;
+        width: 100%;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 8px;
+    }
+}
+

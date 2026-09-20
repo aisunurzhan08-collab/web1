@@ -1,0 +1,91 @@
+body {
+    background-color: #fbc1c1;
+    font-family: 'Roboto', sans-serif;
+    color: #a05151;
+    margin: 0;
+}
+
+
+header {
+    background-color: #164069;
+    color: rgb(180, 111, 133);
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+nav {
+    background-color: #f9cccc;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #164069;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e46f09;
+}
+
+main {
+    background-color: #eda4a4;
+    width: 70%;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #e0aaaa;
+    border-radius: 10px;
+}
+
+
+img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+h2 {
+    color: #164069;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Lists */
+
+li {
+    margin-bottom: 8px;
+}
+
+
+
+.button {
+    display: inline-block;
+    background-color: #164069;
+    color: rgb(243, 185, 185);
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #e46f09;
+}
+
+footer {
+    background-color: #164069;
+    color: rgb(187, 141, 141);
+    text-align: center;
+    padding: 15px;
+}
